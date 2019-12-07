@@ -8,7 +8,13 @@
 
 #include <xc.h>
 
+#ifdef version_1
 
+#endif
+
+#ifdef version_2
+
+#endif
 void main(void) {
     TRISA = 0; //All PortC Outputs
     ////
